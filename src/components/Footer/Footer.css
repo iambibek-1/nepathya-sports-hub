@@ -1,0 +1,17 @@
+.footer{
+    margin: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.footer-links li{
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 27px;
+}

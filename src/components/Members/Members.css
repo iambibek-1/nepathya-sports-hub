@@ -1,0 +1,9 @@
+.member-posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member-posts img{
+    width: 40%;
+    border: 1px solid black;
+}

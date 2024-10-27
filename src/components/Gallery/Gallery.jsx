@@ -10,7 +10,7 @@ import img_4 from '../../assets/gallery4.jpg'
 
 export default function Gallery() {
   return (
-    <div className="glimpse">
+    <div className="glimpse" name='gallery'>
       <div className="gallery">
         <img src={img_1} alt="" />
         <img src={img_2} alt="" />
