@@ -1,0 +1,50 @@
+.about {
+  margin: 215px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: center; */
+}
+.about-left {
+  flex-basis: 40%;
+  position: relative;
+}
+.about-right {
+  flex-basis: 56%;
+}
+.about-img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.play-btn {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(2, 180, 234);
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 90%;
+}
+.about-right h3 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 10px 0;
+  max-width: 400px;
+}
+.about-right h2 {
+  font-size: 50px;
+  max-width: 69%;
+}
+.about p {
+  margin-bottom: 15px;
+  margin-top: 56px;
+  font-size: 33px;
+}
+.about-right span{
+   
+    font-weight: 200;
+    font-size: 50px;
+}

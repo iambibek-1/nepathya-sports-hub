@@ -1,0 +1,16 @@
+.glimpse{
+    margin: 150px auto;
+    width: 100%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+}

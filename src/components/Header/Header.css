@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  /* padding: 4px 0; */
+  position: fixed;
+  /* top: 0;
+    left: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.logo {
+  width: 140px;
+  height: 140px;
+}
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.navbar span {
+  display: flex;
+  flex: 1;
+  font-size: 58px;
+  font-weight: 700;
+  color: white;
+  margin-left: 20px;
+}
+.dark-nav{
+    background: #060c3b;
+    transition: 0.5s;
+}
+  
