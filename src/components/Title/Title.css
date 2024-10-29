@@ -1,18 +1,18 @@
 .title{
     text-align: center;
     color: black;
-    font-size: 30px;
+    /* font-size: 27px; */
     font-weight: 600;
     text-transform: uppercase;
-    margin: 200px 0 30px;
+    margin: 100px 0 30px;
 
 }
 .title h2{
-    font-size: 55px;
+    font-size: 27px;
     color: black;
     margin-top: 5px;
     text-transform: none;
 }
 .title p{
-    font-size: 35px;
+    font-size: 29px;
 }

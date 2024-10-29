@@ -19,7 +19,7 @@
 }
 .play-btn {
   position: absolute;
-  width: 100px;
+  width: 60px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -30,21 +30,46 @@
 }
 .about-right h3 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 27px;
   margin: 10px 0;
   max-width: 400px;
 }
 .about-right h2 {
-  font-size: 50px;
+  font-size: 18px;
   max-width: 69%;
 }
 .about p {
   margin-bottom: 15px;
-  margin-top: 56px;
-  font-size: 33px;
+  margin-top: 15px;
+  font-size: 15px;
 }
-.about-right span{
+.about-right span {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column;
+  }
+  .about-left {
+    flex-basis: 100%;
+    margin: 20px;
+    order: 2;
+  }
+  .about-right {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .play-btn {
+    width: 50px;
    
-    font-weight: 200;
-    font-size: 50px;
+  }
 }
+
+/* @media(max-width:1380px){
+    .about-right p{
+        font-size: 10px;
+    }
+} */

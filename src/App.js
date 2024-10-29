@@ -8,8 +8,13 @@ import Testimonials from "./components/Testimonial/Testimonials";
 import Members from "./components/Members/Members";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Video from "./components/Videoabt/Video";
+import { useState } from "react";
 
 function App() {
+  let [playState,setplayState]= useState(false);
+
+
   return (
     <div className="App">
       <Header />
@@ -17,7 +22,7 @@ function App() {
       <div className="container">
         <Title subTitle="Gallery" title="Some Glimpse" />
         <Gallery />
-        <About />
+        <About setplayState={setplayState}/>
         <Title subTitle="Members" title="Executive Board 2023/2024" />
         <Members />
         <Title subTitle="Testimonials" title="What Student Says" />
@@ -27,6 +32,7 @@ function App() {
       </div>
       <hr/>
       <Footer/>
+      <Video playState={playState} setplayState={setplayState}/>
     </div>
   );
 }

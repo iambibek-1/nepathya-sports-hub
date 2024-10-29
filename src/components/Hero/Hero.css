@@ -15,7 +15,7 @@
 
 }
 .hero-text h1{
-    font-size: 60px;
+    font-size: 27px;
     font-weight: 600;
 }
 
@@ -23,5 +23,26 @@
     max-width: 90em;
     margin: 10px auto 20px;
     line-height: 1.4;
-    font-size: 40px;
+    font-size: 20px;
+}
+@media (max-width : 680px){
+    .hero-text h1{
+        font-size: 20px;
+    }
+    .hero-text p {
+        font-size: 15px;
+    }
+    .btn{
+        padding: 8px 10px;
+    }
+}
+@media (max-width : 503px){
+    .hero-text h1{
+        font-size: 15px;
+    }
+    .hero-text p {
+        font-size: 10px;
+    }
+    
+
 }

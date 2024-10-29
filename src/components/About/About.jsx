@@ -3,14 +3,13 @@ import "./About.css";
 import about_img from "../../assets/aboutimg.jpg";
 import play_btn from "../../assets/playbutton.png";
 
-import hub_video from "../../assets/sport-video.mp4";
 
-export default function About() {
+export default function About({setplayState}) {
   return (
     <div className="about">
       <div className="about-left">
         <img src={about_img} alt="aboutimage" className="about-img" />
-        <img src={play_btn} alt="playbtnimage" className="play-btn" />
+        <img src={play_btn} alt="playbtnimage" className="play-btn" onClick={()=>{setplayState(true)}} />
       </div>
       <div className="about-right">
         <h3>

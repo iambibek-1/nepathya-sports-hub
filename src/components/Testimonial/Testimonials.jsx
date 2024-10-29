@@ -24,7 +24,6 @@ export default function Testimonials() {
     if(tx < 0){
         tx += 25;
     }
-    slider.current.style.transform =  `translateX(${tx}%)`;
   };
 
   return (

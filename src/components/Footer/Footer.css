@@ -1,5 +1,5 @@
 .footer{
-    margin: 50px 40px;
+    margin: 27px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,5 +13,25 @@
     display: inline-block;
     margin-right: 30px;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 18px;
+}
+.design-text{
+    font-size: 15px;
+}
+
+@media(max-width:800px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-links  ul li{
+        margin: 10px;
+    }
+    .design-text{
+        margin-top: 10px;
+    }
+    .footer-links ul{
+        margin-top: 10px;
+        justify-content: center;
+    }
 }
