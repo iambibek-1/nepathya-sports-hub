@@ -15,8 +15,8 @@ export default function Navbar() {
     },[]);
 
     let [showMenu,setshowMenu]=useState(false);
-    let toggleMenu = () =>{
-       setshowMenu(!showMenu);
+    let showbarMenu = () =>{
+      setshowMenu(!showMenu);
     }
   return (
     <div className={`navbar container ${sticky ? 'dark-nav':''}`}>
@@ -31,7 +31,7 @@ export default function Navbar() {
         <li><Link to='testimonails' smooth={true} offset={-425} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}className="btn">Contact Us</Link></li>
       </ul>
-      {/* <FontAwesomeIcon icon={faBars} className="menu-icon" onClick = {toggleMenu} /> */}
+      <FontAwesomeIcon icon={faBars} className="menu-icon" onClick = {showbarMenu} />
     </div>
   );
 }
