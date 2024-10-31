@@ -28,7 +28,7 @@ export default function Navbar() {
         <li><Link to='gallery' smooth={true} offset={-260} duration={500}>Gallery</Link></li>
         <li><Link to='about' smooth={true} offset={-260} duration={500}>About Us</Link></li>
         <li><Link to='members' smooth={true} offset={-200} duration={500}>Members</Link></li>
-        <li><Link to='testimonails' smooth={true} offset={-425} duration={500}>Testimonials</Link></li>
+        <li><Link to='testimonails' smooth={true} offset={-450} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}className="btn">Contact Us</Link></li>
       </ul>
       <FontAwesomeIcon icon={faBars} className="menu-icon" onClick = {showbarMenu} />
