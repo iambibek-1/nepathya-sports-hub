@@ -23,7 +23,7 @@ export default function Navbar() {
       <img src={logo} alt="logo" className="logo" />
       <span>NEPATHYA SPORTS HUB</span>
     
-      <ul className={showMenu ? '' : 'show-menu'}>
+      <ul className={showMenu ? 'active-menu' : 'show-menu'}>
         <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='gallery' smooth={true} offset={-260} duration={500}>Gallery</Link></li>
         <li><Link to='about' smooth={true} offset={-260} duration={500}>About Us</Link></li>

@@ -19,7 +19,7 @@ export default function Footer() {
         <p>© 2024 Nepathya, All Rights Reserved.</p>
       </div>
       <div className="design-text">
-        Designed and  Developed by Nepathians
+        Designed and  Developed by Bibek Bishwokarma
       </div>
       <div className="footer-links">
         <ul>
