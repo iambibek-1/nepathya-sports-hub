@@ -10,6 +10,8 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Video from "./components/Videoabt/Video";
 import { useState } from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Loading from "./components/Loading/Loading";
 
 function App() {
   let [playState,setplayState]= useState(false);
@@ -21,9 +23,18 @@ function App() {
       <Hero />
       <div className="container">
         <Title subTitle="Gallery" title="Some Glimpse" />
+          
         <Gallery />
+        {/* <Router>
+      <Routes>
+        <Route path="/" element={<Gallery />} />
+        <Route path="/loading" element={<Loading />} />
+      </Routes>
+    </Router> */}
+       
+        
         <About setplayState={setplayState}/>
-        <Title subTitle="Members" title="Executive Board 2023/2024" />
+        <Title subTitle="Members" title="Executive Board 2024/2025" />
         <Members />
         <Title subTitle="Testimonials" title="What Student Says" />
         <Testimonials />

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Gallery.css";
+// import { Link } from 'react-scroll';
+// import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import img_1 from '../../assets/gallery1.jpg'
@@ -9,6 +11,11 @@ import img_4 from '../../assets/gallery4.jpg'
 
 
 export default function Gallery() {
+  // const navigate = useNavigate(); // Initialize navigation
+
+  // const handleSeeMore = () => {
+  //   window.open("/loading","_blank"); // Navigate to the Loading component
+  // };
   return (
     <div className="glimpse" name='gallery'>
       <div className="gallery">

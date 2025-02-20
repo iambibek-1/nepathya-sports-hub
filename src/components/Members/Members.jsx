@@ -1,6 +1,6 @@
 import React from 'react'
 import './Members.css'
-import member_img from '../../assets/members.png'
+import member_img from '../../assets/members.jpeg'
 
 
 export default function Members() {

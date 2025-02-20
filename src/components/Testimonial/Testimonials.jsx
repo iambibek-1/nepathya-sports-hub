@@ -8,22 +8,46 @@ import {
 import user_1 from "../../assets/user1.png";
 
 export default function Testimonials() {
-    const slider = useRef();
-    let tx = 0;
+  //   const slider = useRef();
+  //   let tx = 0;
+
+  // const slideForward = () => {
+  //   if(tx> -50){
+  //       tx -= 25;
+  //   }
+  //   slider.current.style.transform =  `translateX(${tx}%)`;
+  //   if(tx === -50){
+  //       tx =25;
+  //   }
+  // };
+  // const slideBackward = () => {
+  //   if(tx < 0){
+  //       tx += 25;
+  //   }
+  //   slider.current.style.transform =  `translateX(${tx}%)`;
+  //   if(tx === 0){
+  //       tx = -50;
+  //   }
+  // };
+  const slider = useRef();
+  let tx = 0;
 
   const slideForward = () => {
-    if(tx> -50){
-        tx -= 25;
+    if (tx > -50) {
+      tx -= 25;
+    } else {
+      tx = 0; // Reset back to the start when reaching the end
     }
-    slider.current.style.transform =  `translateX(${tx}%)`;
-    if(tx === -50){
-        tx =25;
-    }
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
+
   const slideBackward = () => {
-    if(tx < 0){
-        tx += 25;
+    if (tx < 0) {
+      tx += 25;
+    } else {
+      tx = -50; // Reset back to the end when reaching the start
     }
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   return (

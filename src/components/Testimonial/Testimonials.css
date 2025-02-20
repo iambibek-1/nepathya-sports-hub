@@ -93,6 +93,12 @@ p{
     .slider p{
         font-size: 12px;
     }
-    
+    .next-btn, .back-btn{
+        display: none;
+    }
+    .testimonails{
+        padding: 0;
+        margin: 0;
+    }
     
 }
