@@ -32,5 +32,7 @@ git clone (https://github.com/iambibek-1/nepathya-sports-hub.git)
 cd nepathya-sports-hub
 npm install
 
-visit:
+or
+
+Do visit:
 https://nepathya-sports-hub.vercel.app/
