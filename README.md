@@ -1,4 +1,4 @@
- Nepathya Sports Hub
+ Nepathya Sports Hub (Note:i have developed this web during my learning phase)
 
 Nepathya Sports Hub is a web application developed to manage and promote sports activities and events under Nepathya College. The platform provides a centralized space for users to view upcoming events, register for activities, and stay updated on sports news.
 
